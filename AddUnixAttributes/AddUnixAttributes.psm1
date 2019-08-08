@@ -54,7 +54,7 @@ function Add-UnixAttributes {
 	}
 
 	# Figure out all UIDs that were already assigned
-	$AllUsersProperties = Get-ADUser -Filter ‘uidNumber -like "*"’ -Properties uidNumber
+	$AllUsersProperties = Get-ADUser -Filter 'uidNumber -like "*"' -Properties uidNumber
 	$MaxUIDNumber = 0
 	Foreach ($UserUIDNumber in $AllUsersProperties.uidNumber) {
 		if ($MaxUIDNumber -lt $UserUIDNumber) {
