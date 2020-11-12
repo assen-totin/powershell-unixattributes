@@ -2,7 +2,7 @@
 
 PowerShell cmdlet for adding Unix Attributes to AD user
 
-This is a small cmdlet to add Unix Attributes to an existing Windows Active Directory. It is especially useful on Windows Server 2016 where Microsoft removed the NIS service and the GUI tools for managing Unix Attributes from ADUC.
+This is a small cmdlet to add Unix Attributes to an existing Windows Active Directory. It is especially useful on Windows Server 2016 where Microsoft removed the NIS service and the GUI tools for managing Unix Attributes from ADUC. It will automatically find and assign the next available UID.
 
 # Usage
 
@@ -26,7 +26,7 @@ The script is already written in PowerShell, so you do not have to build it.
 
 ## Usage
 
-To import the script in your current session: `Import-Module Add-UnixAttributes.ps1`. Alternarively, run it from its directory.
+To import the script in your current session: `Import-Module Add-UnixAttributes.psm1`. Alternarively, run it from its directory.
 
 You must use an Administrator shell for it to work. 
 

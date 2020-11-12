@@ -25,7 +25,7 @@ function Add-UnixAttributes {
 
 	# Fallback for primary group
 	if (! $GIDNumber) {
-		$GIDNumber = "750"
+		$GIDNumber = "10000"
 	}
 
 	# Fallback for shell
