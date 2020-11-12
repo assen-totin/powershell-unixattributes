@@ -36,7 +36,7 @@ You need to have PowerShell ActiveDirectory module installed (part of RSAT).
 
 You can use the provided NSIS script to build a GUI installer with the script. NSIS is available for Windows and Linux, see http://nsis.sourceforge.net (on Linux, be sure to check with your distro first):
 
-* From the top level directoy of the repo, call `makensis Add-UnixAttributes.nsis`.
+* From the top level directoy of the repo, call `makensis AddUnixAttributes.nsis`.
 
 # Binary Downloads
 
